@@ -60,7 +60,7 @@ The SQL script contains optimized queries and database views that answer these t
 Below are the dashboard pages developed in Power BI:
 
 ### 1. Overall Trends
-![Overall Trends Dashboard](Dashboard/Dashboard-Overall.png)
+![Overall Trends Dashboard](Ola-Slides/Screenshot%202026-07-06%20201102.png)
 
 ### 2. Vehicle Insights
 ![Vehicle Insights Dashboard](Dashboard/Dashboard-Vehicle_Types.png)
@@ -73,9 +73,6 @@ Below are the dashboard pages developed in Power BI:
 
 ### 5. Ratings Analysis
 ![Ratings Analysis Dashboard](Dashboard/Dashboard-Ratings.png)
-
-### 6. Combined Snapshot
-![Combined Dashboard Snapshot](Ola-Slides/Screenshot%202026-07-06%20201102.png)
 
 ---
 
