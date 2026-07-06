@@ -1,131 +1,92 @@
-# OLA Data Analysis and Visualization Project
+# 🚖 OLA Ride-Booking Data Analysis & Visualization
 
-This repository showcases a comprehensive data analysis and visualization project based on OLA ride-booking data. The project explores booking patterns, revenue trends, customer and driver behaviors, and cancellation insights using SQL, Power BI, and Excel. It is designed for recruiters, collaborators, and learners interested in data analytics workflows and dashboards.
+[![SQL](https://img.shields.io/badge/SQL-Database-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](#)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)](#)
+[![Excel](https://img.shields.io/badge/Microsoft_Excel-Spreadsheet-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](#)
 
----
-
-## Project Objective
-To analyze ride-booking data from OLA, identify patterns, and create interactive dashboards to present actionable insights into:
-- Booking trends over time.
-- Customer and driver ratings.
-- Revenue and cancellation analysis.
+A comprehensive data analysis and visualization project based on OLA ride-booking data. This project explores booking patterns, cancellation trends, revenue analytics, and customer/driver ratings using SQL (database queries and views), Power BI (interactive dashboards), and Microsoft Excel (initial data processing).
 
 ---
 
-## Repository Structure
-This repository contains the following files and folders:
+## 🎯 Project Objectives
 
-### 1. **[OLA-Data-Analyst-Project.pdf](OLA-Data-Analyst-Project.pdf)**
-   - Blueprint of the project, detailing:
-     - SQL queries.
-     - Power BI dashboards.
-     - Segregation of insights and visualizations.
-
-### 2. **[Bookings-100000-Rows.xlsx](Bookings-100000-Rows.xlsx)**
-   - Dataset containing 100,000+ rows with the following columns:
-     - Date, Time, Booking_ID, Booking_Status.
-     - Customer_ID, Vehicle_Type, Pickup_Location, Drop_Location.
-     - V_TAT, C_TAT, Booking_Value, Payment_Method.
-     - Ride_Distance, Driver_Ratings, Customer_Ratings.
-     - Cancellation details and reasons.
-   - Source for SQL queries and Power BI visualizations.
-
-### 3. **[Ola Data Analysis.sql](Ola_Data_Analysis.sql)**
-   - SQL script with 10 structured queries to derive key insights, including the creation of reusable views:
-     1. Retrieve all successful bookings.
-     2. Calculate the average ride distance for each vehicle type.
-     3. Count the total number of rides canceled by customers.
-     4. Identify the top 5 customers by total bookings.
-     5. Analyze the number of rides canceled by drivers due to personal or car-related issues.
-     6. Find the maximum and minimum driver ratings for Prime Sedan bookings.
-     7. Retrieve all rides where payment was made using UPI.
-     8. Calculate the average customer rating per vehicle type.
-     9. Compute the total booking value of successful rides.
-     10. List all incomplete rides along with their reasons.
-
-### 4. **[Ola Data Visualization.pbix](Ola_Data_Visualization.pbix)**
-   - Power BI file with interactive dashboards, divided into 5 main sections:
-     1. **Overall Trends**: Ride volume over time and booking status breakdown.
-     2. **Vehicle Insights**: Top vehicle types by distance and ratings.
-     3. **Revenue Analysis**: Payment method breakdown and top spenders.
-     4. **Cancellations**: Reasons for cancellations by customers and drivers.
-     5. **Ratings Analysis**: Distribution and comparison of customer vs. driver ratings.
-
-### 5. **[Ola-Slides](Ola-Slides/)**
-   - Folder containing 5 PNG images used as canvas backgrounds for the Power BI dashboards.
-     - Slide1.png
-     - Slide2.png
-     - Slide3.png
-     - Slide4.png
-     - Slide5.png
-
-### 6. **[Portfolio Dashboard](Dashboard/)**
-   - The complete dashboard is designed for showcasing in your portfolio, emphasizing interactive storytelling and professional design.
- ## Dashboard Preview
-
-Below is a snapshot of the PowerBI dashboard:
-
-![Dashboard Screenshot](Dashboard/Dashboard-Overall.png)
-![Dashboard Screenshot](Dashboard/Dashboard-Vehicle_Types.png)
-![Dashboard Screenshot](Dashboard/Dashboard-Revenue.png)
-![Dashboard Screenshot](Dashboard/Dashboard-Cancellation.png)
-![Dashboard Screenshot](Dashboard/Dashboard-Ratings.png)
+To analyze ride-booking data from OLA, identify trends, and create interactive, visual dashboards that provide actionable business insights into:
+- 📈 **Booking Trends & Volume:** Performance over time, booking success rates, and demand patterns.
+- 🚗 **Vehicle Segment Insights:** Booking counts, average distance, and ratings per vehicle type.
+- 💰 **Revenue Analysis:** Top spenders, total booking values, and distribution of payment methods.
+- ❌ **Cancellation Analysis:** Segregated reasons for ride cancellations by customers and drivers.
+- ⭐ **Rating Distribution:** Comparative analysis of customer vs. driver ratings.
 
 ---
 
-## Key Insights and Analysis
+## 🛠️ Tech Stack
 
-### SQL Analysis
-1. **Successful Bookings**: Identified all completed rides.
-2. **Average Ride Distance**: Calculated for each vehicle type to understand efficiency.
-3. **Cancellation Insights**:
-   - Total canceled rides (customer and driver).
-   - Reasons for driver cancellations (personal, car issues, etc.).
-4. **Top Customers**: Ranked by number of bookings and total spending.
-5. **Revenue Trends**: Summarized booking values for successful rides.
-6. **Ratings Distribution**: Analyzed by vehicle type for customer and driver performance.
-
-### Power BI Dashboards
-1. **Ride Volume Over Time**: Trends in ride bookings across days and weeks.
-2. **Booking Status Breakdown**: Pie charts illustrating success, cancellations, and incomplete rides.
-3. **Revenue Breakdown**: Bar charts by payment method and customer value.
-4. **Cancellation Reasons**: Segmented by customers and drivers for actionable insights.
-5. **Rating Comparisons**: Driver and customer ratings are compared across various vehicle types using card visuals.
+- **SQL (MSSQL / MySQL):** Querying, data filtering, and view creation for structured reporting.
+- **Power BI:** Data modeling, DAX calculations, and interactive visual dashboard development.
+- **Microsoft Excel:** Large dataset inspection, initial exploratory analysis, and data cleanup.
 
 ---
 
-## How to Use the Repository
+## 📊 Repository Structure
 
-1. **Clone or Download**:
-   - Clone this repository using Git or download it as a ZIP file.
+The project is structured with the following files and folders:
 
-2. **SQL Queries**:
-   - Load the `Bookings-100000-Rows.xlsx` dataset into your database (e.g., MySQL, PostgreSQL).
-   - Run the queries in `Ola_Data_Analysis.sql` to generate insights.
-
-3. **Power BI Dashboard**:
-   - Open `Ola_Data_Visualization.pbix` in Power BI Desktop.
-   - Explore the dashboards and interact with filters for detailed insights.
-
-4. **Portfolio Showcase**:
-   - Include the Power BI file to demonstrate interactive dashboarding skills.
+- 📑 **[OLA-Data-Analyst-Project.pdf](OLA-Data-Analyst-Project.pdf):** The project blueprint containing detailed SQL queries, Power BI visual requirements, and key insights.
+- 📊 **[Bookings-100000-Rows.xlsx](Bookings-100000-Rows.xlsx):** The dataset containing over 100,000 bookings with full attributes (ID, status, location, value, ratings, reasons, etc.).
+- 💾 **[Ola_Data_Analysis.sql](Ola_Data_Analysis.sql):** SQL script with 10 structured queries and view creation for key analytical questions.
+- 📈 **[Ola_Data_Visualization.pbix](Ola_Data_Visualization.pbix):** The Power BI workbook containing all interactive dashboard pages.
+- 🎨 **[Ola-Slides/](Ola-Slides/):** Folder containing the custom canvas background images used for the Power BI dashboard layout.
 
 ---
 
-## Tools and Technologies Used
-- **SQL**: For querying and extracting insights from the dataset.
-- **Excel**: To handle large datasets and initial data exploration.
-- **Power BI**: For creating interactive dashboards and visual storytelling.
+## 🔍 SQL Analysis & Core Questions
+
+The SQL script contains optimized queries and database views that answer these ten critical business questions:
+1. **Successful Bookings:** Retrieve and inspect all rides that completed successfully.
+2. **Vehicle Type Efficiency:** Calculate the average ride distance for each vehicle type.
+3. **Customer Cancellations:** Count the total number of rides cancelled by customers.
+4. **Top Customers:** Identify the top 5 customers by total booking frequency.
+5. **Driver Issues:** Count driver cancellations due to personal or vehicle issues.
+6. **Ratings Analysis (Prime Sedan):** Find the minimum and maximum driver ratings for Prime Sedans.
+7. **UPI Transactions:** Filter and retrieve all rides paid using UPI.
+8. **Vehicle Ratings:** Calculate the average customer rating for each vehicle type.
+9. **Revenue Summary:** Calculate the sum of all booking values for successful rides.
+10. **Incomplete Rides:** List all incomplete rides along with their cancellation reasons.
 
 ---
 
-## Future Enhancements
-- Integrate Python for predictive analytics and ride-demand forecasting.
-- Expand dashboards with additional drill-through and tooltips for enhanced interactivity.
-- Automate data pipelines for real-time dashboard updates.
+## 🖥️ Interactive Dashboard Preview
+
+Below is a snapshot of the Power BI dashboard:
+
+![Dashboard Screenshot](Ola-Slides/Screenshot%202026-07-06%20201102.png)
 
 ---
-## Contact
 
-For any questions or suggestions, feel free to reach out via [GitHub](https://github.com/priyansh0712).
+## 🚀 How to Replicate
 
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/priyansh0712/Ola_dashbord.git
+   ```
+2. **Database Setup:**
+   - Load the `Bookings-100000-Rows.xlsx` dataset into your SQL database (e.g. MySQL, MSSQL Server).
+   - Execute the SQL script `Ola_Data_Analysis.sql` to generate views and verify insights.
+3. **Power BI Dashboard:**
+   - Open `Ola_Data_Visualization.pbix` in **Power BI Desktop**.
+   - If needed, update the data source path to point to your local copy of `Bookings-100000-Rows.xlsx`.
+   - Interact with the visual elements, filters, and drill-throughs.
+
+---
+
+## 🔮 Future Enhancements
+
+- [ ] Integrate Python/R scripts for predictive modeling (e.g., ride demand forecasting).
+- [ ] Implement automated ETL pipelines for real-time dashboard data refreshes.
+- [ ] Add advanced tooltips and detail drill-through pages to the Power BI dashboard.
+
+---
+
+## 🤝 Connect
+
+Created by **[Priyansh Vekariya](https://github.com/priyansh0712)**. Feel free to reach out for questions, collaboration, or suggestions!
