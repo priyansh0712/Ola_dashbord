@@ -57,9 +57,25 @@ The SQL script contains optimized queries and database views that answer these t
 
 ## 🖥️ Interactive Dashboard Preview
 
-Below is a snapshot of the Power BI dashboard:
+Below are the dashboard pages developed in Power BI:
 
-![Dashboard Screenshot](Ola-Slides/Screenshot%202026-07-06%20201102.png)
+### 1. Overall Trends
+![Overall Trends Dashboard](Dashboard/Dashboard-Overall.png)
+
+### 2. Vehicle Insights
+![Vehicle Insights Dashboard](Dashboard/Dashboard-Vehicle_Types.png)
+
+### 3. Revenue Analysis
+![Revenue Analysis Dashboard](Dashboard/Dashboard-Revenue.png)
+
+### 4. Cancellations Analysis
+![Cancellations Dashboard](Dashboard/Dashboard-Cancellation.png)
+
+### 5. Ratings Analysis
+![Ratings Analysis Dashboard](Dashboard/Dashboard-Ratings.png)
+
+### 6. Combined Snapshot
+![Combined Dashboard Snapshot](Ola-Slides/Screenshot%202026-07-06%20201102.png)
 
 ---
 
