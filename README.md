@@ -127,5 +127,5 @@ Below is a snapshot of the PowerBI dashboard:
 ---
 ## Contact
 
-For any questions or suggestions, feel free to reach out via [GitHub](https://github.com/vsumitwork).
+For any questions or suggestions, feel free to reach out via [GitHub](https://github.com/priyansh0712).
 
